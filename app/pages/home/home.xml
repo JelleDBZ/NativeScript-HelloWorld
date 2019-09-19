@@ -2,6 +2,7 @@
 
     <StackLayout>
         <Label text="Hello World from Vives" textWrap="true" />
+        <Button text="About" tap="onAboutTap" />
     </StackLayout>
 
 </Page>
