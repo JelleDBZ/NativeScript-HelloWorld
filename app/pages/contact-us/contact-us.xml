@@ -1,0 +1,16 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
+    <StackLayout>
+         <Label text="Contact Us" textWrap="true" />
+         <Label text="To contact us fill in the following form" textWrap="true" />
+
+         <Label text="Subject:" textWrap="true" />
+         <TextField hint="Please enter a subject ..." text="{{  }}" />
+
+         <Label text="Message:" textWrap="true" />
+         <TextView hint="Please provide a message ..." text="{{  }}" editable="true" />
+
+         <Button text="Submit" tap="onSubmit" />
+         <Button text="About" tap="onAboutTap" />
+           
+    </StackLayout>
+</Page>

@@ -3,6 +3,9 @@
     <StackLayout>
         <Label text="Hello World from Vives" textWrap="true" />
         <Button text="About" tap="onAboutTap" />
+        <Button text="Contact us" tap="onContactTap" />
+        <Button text="Repos" tap="onReposTap" />
+        
     </StackLayout>
 
 </Page>
