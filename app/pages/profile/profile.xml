@@ -1,0 +1,8 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden='True'>
+    <StackLayout>
+        <Label text="My Profile" textWrap="true" class="title" />
+        <GridLayout rows="*,*, *, *" columns="*,*">
+            
+        </GridLayout>
+    </StackLayout>
+</Page>

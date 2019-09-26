@@ -19,11 +19,54 @@ components that have the btn class name.
 .btn {
     font-size: 18;
 }
+Page {
+    background-color: #E2E0D5;
+    padding-left: 12;
+    padding-right: 12;
+}
 
-* {
+Button {
+    /* Style selector */
+    background-color: #FDFDFF;
+    color: #836856;
+    font-size: 12;
+    border-radius: 15;
+    margin: 10;
+}
+
+.title {
+    /*class selector*/
+    text-align: center;
+    border-radius: 15;
+    font-size: 24;
+    font-weight: bold;
+    margin-bottom: 12;
+    padding: 5;
+    background-color: #2BBECE;
+    color: #D0D0D1;
+}
+
+.content{
+    padding: 12;
+}
+
+#submit{
+    background-color: #2274A5;
+    color: #836856;
+}
+
+Stacklayout  label {
+
+}
+
+Stacklayour > label{}
+Textfield[hints]{
+
+}
+/* * { 
     border-width: 2px;
     border-color:red;
     border-style: solid;
     margin: 1px;
     padding: 1px;
-}
+} */

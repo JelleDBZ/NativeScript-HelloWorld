@@ -7,3 +7,4 @@ let navigate = function(page){
 exports.onAboutTap = () => navigate('about');
 exports.onContactTap = () => navigate('contact-us');
 exports.onReposTap = () =>navigate('repos');
+exports.onProfileTap = () =>navigate('profile');
