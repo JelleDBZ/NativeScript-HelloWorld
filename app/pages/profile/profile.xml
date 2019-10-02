@@ -1,8 +1,37 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden='True'>
     <StackLayout>
         <Label text="My Profile" textWrap="true" class="title" />
-        <GridLayout rows="*,*, *, *" columns="*,*">
-            
+        <GridLayout rows="*,*, *, *,*" columns="*,*" class="content">
+            <StackLayout row="0" col="0" class="stack">
+              <Label text="Name" textWrap="true" class="label" />
+            </StackLayout>
+            <StackLayout row="0" col="1" class="stack">
+                <TextField hint="Please enter your name here:" text="{{  }}" />
+            </StackLayout>
+
+            <StackLayout row="1" col="0" class="stack">
+                <Label text="Nickname" textWrap="true" />
+            </StackLayout>
+            <StackLayout row="1" col="1" class="stack">
+                <TextField hint="Please enter your name here:" text="{{  }}" />
+            </StackLayout>
+            <StackLayout row="2" col="0" class="stack">
+                <Label text="#Repos" textWrap="true" />  
+            </StackLayout>
+            <StackLayout row="2" col="1" class="stack">
+                <Label text="17 Repos" textWrap="true" />
+            </StackLayout>
+            <StackLayout row="3" col="0" class="stack">
+                <Label text="#Followers" textWrap="true" />  
+            </StackLayout>
+            <StackLayout row="3" col="1" class="stack">
+                <Label text="48 Followers" textWrap="true" />
+            </StackLayout>
+            <StackLayout row="4" col="0" colSpan="2">
+                <Label text="Avatar" textWrap="true" />
+                <Image src="https://github.com/JelleDBZ.png" stretch="aspectFit" />
+            </StackLayout>
         </GridLayout>
+       
     </StackLayout>
 </Page>

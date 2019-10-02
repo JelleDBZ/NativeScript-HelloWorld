@@ -50,6 +50,10 @@ Button {
     padding: 12;
 }
 
+.content .stack label {
+    text-align: center;
+}
+
 #submit{
     background-color: #2274A5;
     color: #836856;
@@ -61,7 +65,14 @@ Stacklayout  label {
 
 Stacklayour > label{}
 Textfield[hints]{
-
+    text-align: center;
+}
+.stack {
+    border-style: solid;
+    border-color: #2BBECE;
+    border-radius: 15px;
+    border-width: 4px;
+    margin: 2;
 }
 /* * { 
     border-width: 2px;
