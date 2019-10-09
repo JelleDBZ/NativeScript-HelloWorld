@@ -1,0 +1,24 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
+    <ScrollView>
+        <StackLayout>
+        <Image src="res://facepalm" stretch="none" />
+        
+
+            <Label text="108 versus 108px" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="108" />
+            <StackLayout orientation="horizontal">
+                <Image src="https://via.placeholder.com/150" width="73px" />
+                <Image src="https://via.placeholder.com/150" width="73px" />
+                <Image src="https://via.placeholder.com/150" width="73px" />
+                <Image src="https://via.placeholder.com/150" width="73px" />
+            </StackLayout>
+            <Label text="Full screen (432 dpi) versus 432px" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="432" />
+            <Image src="https://via.placeholder.com/150" width="432px" />
+            <!-- 432dpi / 160 (baseline) = 2.7x (scale) -->
+            <!-- 108 = 1080/10 -->
+            <!-- 108px * 2.7 zal moeten gelijk zijn als width='108'   => 291 -->
+            <!-- 292/4 = 73px -->
+        </StackLayout>
+    </ScrollView>
+</Page>

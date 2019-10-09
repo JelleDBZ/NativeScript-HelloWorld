@@ -43,14 +43,14 @@ Button {
     margin-bottom: 12;
     padding: 5;
     background-color: #2BBECE;
-    color: #D0D0D1;
+    color: rgb(68, 68, 78);
 }
 
 .content{
     padding: 12;
 }
 
-.content .stack label {
+.content .stack {
     text-align: center;
 }
 

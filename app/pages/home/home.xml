@@ -2,10 +2,12 @@
 
     <StackLayout>
         <Label text="Hello World from Vives" textWrap="true" class="title" />
-        <Button text="About" tap="onAboutTap" />
-        <Button text="Contact us" tap="onContactTap" />
         <Button text="Repos" tap="onReposTap" />
         <Button text="Profile" tap="onProfileTap" />
+        <Button text="Images" tap="onImagesTap" />
+        <Button text="About" tap="onAboutTap" />
+        <Button text="Contact us" tap="onContactTap" />
+        
         
     </StackLayout>
 

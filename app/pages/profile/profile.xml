@@ -6,14 +6,14 @@
               <Label text="Name" textWrap="true" class="label" />
             </StackLayout>
             <StackLayout row="0" col="1" class="stack">
-                <TextField hint="Please enter your name here:" text="{{  }}" />
+                <TextField hint="..." text="{{ name }}" />
             </StackLayout>
 
             <StackLayout row="1" col="0" class="stack">
                 <Label text="Nickname" textWrap="true" />
             </StackLayout>
             <StackLayout row="1" col="1" class="stack">
-                <TextField hint="Please enter your name here:" text="{{  }}" />
+                <TextField hint="..." text="{{ nickname }}" />
             </StackLayout>
             <StackLayout row="2" col="0" class="stack">
                 <Label text="#Repos" textWrap="true" />  

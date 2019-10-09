@@ -5,11 +5,15 @@
             <Label text="To contact us fill in the following form" textWrap="true" />
 
             <Label text="Subject:" textWrap="true" />
-            <TextField hint="Please enter a subject ..." text="{{  }}" />
+            <TextField hint="Please enter a subject ..." text="{{ subject }}" />
 
             <Label text="Message:" textWrap="true" />
-            <TextView hint="Please provide a message ..." text="{{  }}" editable="true" />
+            <TextView hint="Please provide a message ..." text="{{ message }}" editable="true" />
 
+            <Label text="Preview message: " textWrap="true" />
+            <Label text="{{ subject, 'Subject: ' + subject}}" textWrap="true" />
+            <Label text="{{ message }} " textWrap="true" />
+            
             <Button text="Submit" tap="onSubmit" />
             <Button text="About" tap="onAboutTap" />
          </StackLayout>
